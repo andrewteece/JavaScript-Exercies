@@ -8,7 +8,7 @@ console.log( getRandomNumber() );
 
 function isEmailEmpty() {
 	let field = document.getElementsById('email');
-	if (field.valuee === '') {
+	if (field.value === '') {
 		return true;
 	}	else {
 			return false;
