@@ -86,6 +86,7 @@ if (musicians < 1) {
 
 ////////////////////////////////////////
 
+/*
 let room = 'dining room';
 let suspect = 'Mr. Parkes';
 
@@ -104,4 +105,29 @@ if (room === 'ballroom') {
 
 if (solved) {
   console.log(`${suspect} did it in the ${room} with the ${weapon}!`);
+}
+*/
+
+////////////////////////////////////////
+
+//
+// Checking Your Balance
+//
+
+let balance = 325.00;
+let checkBalance = true;
+let isActive = false;
+
+if (checkBalance) {
+  if (isActive && balance > 0) {
+    console.log('Your balance is $ ${balance}.');
+  } else if (!isActive) {
+      console.log('Your account is no longer active.');
+  } else if (balance === 0) {
+      console.log('Your account is empty');
+  } else {
+    console.log('Your balance is negative. Please contact bank.');
+  }
+} else {
+  console.log('Thank you. Have a nice day!');
 }
